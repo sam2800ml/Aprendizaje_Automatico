@@ -54,3 +54,28 @@ Dependiendo de la funcion de activacion que se usa, se debe de acomodar el perce
 Se tienen 2 caracteristicas de entrada X1 y X2, lo cual hace que tengamos la tabla de la verdad anteriormente mostrada, la salida de la AND funciona de esta manera, y es que para que se active ambas entradas deben estar en 1 de resto deben estar de 0.
 
 Tenemos 4 muestras y ademas tenemos dos clases de salida, la 1 y la 0
+
+![Perceptron](image-6.png)
+
+En el momento de colocarlo en practica tendriamos que pasar muestra a muestra, por lo cual tendriamos varios valores de salida
+
+Zm1 = W1*X1(0)+W2*X2(0)+bias   (Muestra 1)
+Zm2 = W1*X1(0)+W2*X2(1)+bias   (Muestra 2)
+Zm3 = W1*X1(1)+W2*X2(0)+bias   (Muestra 3)
+Zm4 = W1*X1(1)+W2*X2(1)+bias   (Muestra 4)
+
+Primero se pasa la muestra 1, con la  cual se genera un resultado, y donde este resultado se multiplica con la funcion de activacion, y con esto obteninedo que tanto error se tiene segun la etiqueta de la prediccion real, este error sirve para despues ir modificando los valores de los pesos, ya que son los unicos valores los cuales se pueden actualizar, despues se pasa por las siguientes muestras actualizandolos, una vez finalizada por cada una de las muestras se repite el mismo proceso actualizandolos hasta que llegue ese error a 0.
+<br>
+Cabe aclarar que para la primera iteracion los pesos sipnaticos no pueden ser 0, ya que estaria aprendiendo sin nada.
+<br>
+**Regla de aprendizaje**
+<ol>
+<li>Se asignan valores de forma aleatoria a los pesos sipnaticos w y el valor de sesgo o bias</li>
+<li>Presentar a la red el vector de las caracteristicas de entrada X y especificar las etiquetas de la salida deseada y</li>
+<li>Calcular el valor neto precedentes de las entradas</li>
+<li>Calcular la salida de la red</li>
+<li>Actualizar los pesos</li>
+<li>Calcular el error</li>
+<li>Si el error es diferente de 0 para cada una de las caracteristicas, volver al paso 2</li>
+</ol>
+
