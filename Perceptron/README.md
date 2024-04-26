@@ -59,10 +59,10 @@ Tenemos 4 muestras y ademas tenemos dos clases de salida, la 1 y la 0
 
 En el momento de colocarlo en practica tendriamos que pasar muestra a muestra, por lo cual tendriamos varios valores de salida
 
-Zm1 = W1*X1(0)+W2*X2(0)+bias   (Muestra 1)
-Zm2 = W1*X1(0)+W2*X2(1)+bias   (Muestra 2)
-Zm3 = W1*X1(1)+W2*X2(0)+bias   (Muestra 3)
-Zm4 = W1*X1(1)+W2*X2(1)+bias   (Muestra 4)
+Zm1 = W1*X1(0)+W2*X2(0)+bias   (Muestra 1) <br>
+Zm2 = W1*X1(0)+W2*X2(1)+bias   (Muestra 2) <br>
+Zm3 = W1*X1(1)+W2*X2(0)+bias   (Muestra 3) <br>
+Zm4 = W1*X1(1)+W2*X2(1)+bias   (Muestra 4) <br>
 
 Primero se pasa la muestra 1, con la  cual se genera un resultado, y donde este resultado se multiplica con la funcion de activacion, y con esto obteninedo que tanto error se tiene segun la etiqueta de la prediccion real, este error sirve para despues ir modificando los valores de los pesos, ya que son los unicos valores los cuales se pueden actualizar, despues se pasa por las siguientes muestras actualizandolos, una vez finalizada por cada una de las muestras se repite el mismo proceso actualizandolos hasta que llegue ese error a 0.
 <br>
