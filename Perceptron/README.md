@@ -80,3 +80,8 @@ Cabe aclarar que para la primera iteracion los pesos sipnaticos no pueden ser 0,
 <li>Si el error es diferente de 0 para cada una de las caracteristicas, volver al paso 2</li>
 </ol>
 
+W1*X1+W2*X2+BIAS =Y -> Y es nuestro resultado deseado
+
+En este caso, si queremos
+-W1*X1-BIAS = W2*X2
+X2 = -W1/W2 * X1 + BIAS / W2
