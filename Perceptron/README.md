@@ -36,9 +36,11 @@ y = phi*z
 
 En el perceptron solo existen solo 2 funciones de activacion:
     -Escalon Unipolar: todo numero mayor que  se convierte en 1
+    <br>
     ![Escalon Unipolar](image-2.png)
     <br>
     -Escalon Bipolar: Numero mayor a 0 es 1, y menor es -1
+    <br>
     ![Escalon Bipolar](image-3.png)
 
 Dependiendo de la funcion de activacion que se usa, se debe de acomodar el perceptron para poder asegurar de que este ideal, y evitar que se generer errores en el momento de ocnvergencia
