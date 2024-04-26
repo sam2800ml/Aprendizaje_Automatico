@@ -1,10 +1,16 @@
 
 
 Flujo de trabajo en un proyecto de inteligencia artificial:
--Preprocesamiento
-    * Analisis exploratorio de los datos
--Entrenamiento Aprendizaje
-    -modelo de la maquina
+<ol>
+<li>Preprocesamiento</li>
+    <ul>
+    <li>Analisis exploratorio de los datos</li>
+    </ul>
+<li>Entrenamiento Aprendizaje</li>
+    <ul>
+    <li>modelo de la maquina</li>
+    </ul>
+</ol>
 
 
 # Perceptron 
@@ -31,6 +37,7 @@ y = phi*z
 En el perceptron solo existen solo 2 funciones de activacion:
     -Escalon Unipolar: todo numero mayor que  se convierte en 1
     ![Escalon Unipolar](image-2.png)
+    <br>
     -Escalon Bipolar: Numero mayor a 0 es 1, y menor es -1
     ![Escalon Bipolar](image-3.png)
 
