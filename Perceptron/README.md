@@ -68,6 +68,7 @@ Primero se pasa la muestra 1, con la  cual se genera un resultado, y donde este 
 <br>
 Cabe aclarar que para la primera iteracion los pesos sipnaticos no pueden ser 0, ya que estaria aprendiendo sin nada.
 <br>
+<br>
 **Regla de aprendizaje**
 <ol>
 <li>Se asignan valores de forma aleatoria a los pesos sipnaticos w y el valor de sesgo o bias</li>
