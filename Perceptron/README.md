@@ -1,15 +1,17 @@
 
 
-Flujo de trabajo en un s
+Flujo de trabajo en un proyecto de inteligencia artificial:
 -Preprocesamiento
-    -Analisis exploratorio de los datos
+    * Analisis exploratorio de los datos
 -Entrenamiento Aprendizaje
     -modelo de la maquina
 
 
-**Perceptron**
-El ser humano siempre ha tratado de replicar el funcionamiento de las neuronas en los seres humanos, la base fundamental esta en entender como funciona la celula llamada neurona.
-Cada neurona cuenta con el nucleo celular, despues una dentritas, las cuales tienen un flujo con informacion de otras neuronas, y todo esto es para que suceda la exitacion, para que esa informacion entre a la celula, dependiendo de si se supera los umbrales de excitacion, y salgan por los terminales nerviosos, los cuales pueden unirse a mas neuronas y asi crear un bucle lleno de muchas neuronas.
+# Perceptron 
+
+El ser humano siempre ha tratado de replicar el funcionamiento de las neuronas en los seres humanos, la base fundamental esta en entender como funciona la celula llamada neurona.<br>
+
+Cada neurona cuenta con el nucleo celular, despues una dentritas, las cuales tienen un flujo con informacion de otras neuronas, y todo esto es para que suceda la exitacion, para que esa informacion entre a la celula, dependiendo de si se supera los umbrales de excitacion, y salgan por los terminales nerviosos, los cuales pueden unirse a mas neuronas y asi crear un bucle lleno de muchas neuronas.<br>
 ![Neurona](image-1.png)
 ![Estrucrua_Perceptron](image.png)
 
@@ -18,7 +20,7 @@ Todo esto se ve afectado por un W, el cual es un peso sipnatico, es el peso que 
 
 Una vez llega al cuerpo de la neurona, donde ocurre una sumatoria, la cual se consolida de la siguiente manera
 
-\\[Z = W1*1+W2*X2+WN*XN + bias\\]
+Z = W1*1+W2*X2+WN*XN + bias
 
 
 Despues pasa por una funcion de activacion y se le denomina phi
