@@ -17,15 +17,14 @@ Por cada dentrita o canal de entrada, se recepciona una caracteristica de inform
 Todo esto se ve afectado por un W, el cual es un peso sipnatico, es el peso que tiene cada canal de entrada y que dara cada ponderacion a cada entrada, cada uno es distinto, y se tiene los mismo dependiendo de las caracteristicas de entrada, por lo que desde ahi se puede ponderar cuales tienen mas peso que otras.
 
 Una vez llega al cuerpo de la neurona, donde ocurre una sumatoria, la cual se consolida de la siguiente manera
-$$
+
 \\[Z = W1*1+W2*X2+WN*XN + bias\\]
-$$
-$$$1+1$$
+
 
 Despues pasa por una funcion de activacion y se le denomina phi
-$$
+
 y = phi*z
-$$
+
 
 En el perceptron solo existen solo 2 funciones de activacion:
     -Escalon Unipolar: todo numero mayor que  se convierte en 1
