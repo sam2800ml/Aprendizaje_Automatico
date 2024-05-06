@@ -1,0 +1,1 @@
+# descenso del graidente estocastico
