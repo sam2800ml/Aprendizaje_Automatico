@@ -1,0 +1,2 @@
+# Decision Tree
+Es un diagrama en forma de arbol que se utiliza para determinar un curso de accion. Cada rama del arbol representa una posible decision, suceso o reaccion. Determina un paquete de condiciones logicas para clasificar problemas (if- them)
